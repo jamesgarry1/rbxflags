@@ -6,7 +6,6 @@
 
 #### Version: 5.28.24++
 * **135 Currently Listed**
-* `Noclip 2`
 * **Textures currently don't work because "FFlagMSRefactor5" was removed, Roblox always removes the useful features instead of harmful stuff.**
 
 ## Bloxstrap How to Use:
