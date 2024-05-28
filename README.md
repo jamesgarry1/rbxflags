@@ -1,13 +1,11 @@
-<h3 align="center">♡</h3>
-
 <h3 align="center">
   <img src="assets/asap.gif" width="256" alt="LIVE.LOVE.A$AP">
 </h3>
 
-<h1 align="center">plagiarizing simulator</h1>
+<h1 align="center">rbxflags clean</h1>
 
 #### Version: 5.28.24++
-* **163 Currently Listed**
+* **135 Currently Listed**
 * `Noclip 2`
 * **Textures currently don't work because "FFlagMSRefactor5" was removed, Roblox always removes the useful features instead of harmful stuff.**
 
@@ -28,7 +26,7 @@
 3. **Create a new folder named `ClientSettings`. Inside this folder, place the file `ClientAppSettings.json`.**
 4. **Paste the JSON into `ClientAppSettings.json`. (You can utilize ChatGPT to format multiple JSONs for clarity if needed)**
 5. **Save and your good to go!**
-###### Do note that after roblox updates you have to paste in your fflags again.
+###### Do note that after roblox updates you have to do this process again.
 
 [Watch a Video Tutorial](https://streamable.com/rk5an6)
 
@@ -41,13 +39,13 @@
 [Watch a Video Tutorial](https://www.youtube.com/watch?v=5XjhPF5ydJM)
 
  # List Navigation
-* **[Rendering](https://github.com/collectivists/rbxflags/tree/main?tab=readme-ov-file#rendering)**
-* **[Graphical](https://github.com/collectivists/rbxflags/tree/main?tab=readme-ov-file#graphical-settings)**
-* **[UI](https://github.com/collectivists/rbxflags/tree/main?tab=readme-ov-file#user-interface)**
-* **[Textures](https://github.com/collectivists/rbxflags/tree/main?tab=readme-ov-file#textures)**
-* **[Physics](https://github.com/collectivists/rbxflags/tree/main?tab=readme-ov-file#physics)**
-* **[Other FFlags](https://github.com/collectivists/rbxflags/tree/main?tab=readme-ov-file#other-fflags)**
-* **[Links](https://github.com/collectivists/rbxflags/tree/main?tab=readme-ov-file#links)**
+* **[Rendering](https://github.com/collectivists/rbxflags/tree/clean?tab=readme-ov-file#rendering)**
+* **[Graphical](https://github.com/collectivists/rbxflags/tree/clean?tab=readme-ov-file#graphical-settings)**
+* **[UI](https://github.com/collectivists/rbxflags/tree/clean?tab=readme-ov-file#user-interface)**
+* **[Textures](https://github.com/collectivists/rbxflags/tree/clean?tab=readme-ov-file#textures)**
+* **[Physics](https://github.com/collectivists/rbxflags/tree/clean?tab=readme-ov-file#physics)**
+* **[Other FFlags](https://github.com/collectivists/rbxflags/tree/clean?tab=readme-ov-file#other-fflags)**
+* **[Links](https://github.com/collectivists/rbxflags/tree/clean?tab=readme-ov-file#links)**
 
 <img src="assets/bitdancer.png" width="888"/>
 
@@ -113,25 +111,6 @@
 
 <h1 align="center">Graphical Settings <sup>& more</sup></h1>
 
-### Semi Fullbright
-```json
-{
-    "FFlagFastGPULightCulling3": "True",
-    "FIntRenderShadowIntensity": "0",
-    "DFIntCullFactorPixelThresholdShadowMapHighQuality ": "2147483647",
-    "DFIntCullFactorPixelThresholdShadowMapLowQuality": "2147483647",
-    "FFlagNewLightAttenuation": "True",
-    "FIntRenderShadowmapBias": "-1",
-    "DFFlagDebugPauseVoxelizer": "True"
-}
-```
-### Draws a circle under avatars
-```json
-{
-    "FFlagDebugAvatarChatVisualization": "True",
-    "FFlagEnableInGameMenuChromeABTest2": "False"
-}
-```
 ### HyperThreading
 ```json
 {
@@ -226,7 +205,7 @@ High
 ```
 
 ### Low Render Distance
-###### [FRM](https://github.com/collectivists/rbxflags/tree/main?tab=readme-ov-file#frm-levels)
+###### [FRM](https://github.com/collectivists/rbxflags/tree/clean?tab=readme-ov-file#frm-levels)
 ```json
 {
     "DFIntDebugRestrictGCDistance": "1"
@@ -253,7 +232,7 @@ High
 }
 ```
 ### Makes avatars shiny 
-###### [everything goes black on <3] ***[DFIntDebugFRMQualityLevelOverride is there to set your graphics to 10, You can change it to anything above 3: [Click here to view](https://github.com/collectivists/rbxflags/tree/main?tab=readme-ov-file#frm-levels) ]***
+###### [everything goes black on <3] ***[DFIntDebugFRMQualityLevelOverride is there to set your graphics to 10, You can change it to anything above 3: [Click here to view](https://github.com/collectivists/rbxflags/tree/clean?tab=readme-ov-file#frm-levels) ]***
 ```json
 {
     "DFIntRenderClampRoughnessMax": "-640000000",
@@ -389,16 +368,6 @@ High
 ```json
 {
     "FIntCameraFarZPlane": "1"
-}
-```
-### Xray
-###### too lazy to explain what it does, shout out to tyetonix
-```json
-{
-    "DFIntCullFactorPixelThresholdMainViewHighQuality": "10000",
-    "DFIntCullFactorPixelThresholdMainViewLowQuality": "10000",
-    "DFIntCullFactorPixelThresholdShadowMapHighQuality": "10000",
-    "DFIntCullFactorPixelThresholdShadowMapLowQuality": "10000"
 }
 ```
 
@@ -687,174 +656,6 @@ High
     "FIntPhysicsGridHierarchyLowestLevelInitBinCountWorldModel": "100000000",
     "FIntPhysicsSolverCollisionPoolBucketSize": "2147483647",
     "FIntPhysicsSolverCollisionPoolBucketSizeWorldModel": "2147483647"
-}
-```
-### Crash Roblox
-```json
-{
-    "DFIntTimestepArbiterThresholdCFLThou": "0"
-}
-```
-### Stuttery Animation Fix
-```json
-{
-    "DFIntTimestepArbiterThresholdCFLThou": "300"
-}
-```
-### Remap R6 to R15 Rigs/Weird Movement
-```json
-{
-    "FFlagRemapAnimationR6ToR15Rig": "True"
-}
-```
-### Weird Leg Movement
-```json
-{
-    "DFFlagAnimatorPostProcessIK": "True"
-}
-```
-### Adjust Hip Height Clamps
-###### https://www.roblox.com/bundles/63/Mage-Animation-Package
-```json
-{
-    "DFIntHipHeightClamp": "-48"
-}
-```
-### Random High Jumps
-###### https://youtu.be/2JkA4hWCAWw
-```json
-{
-    "FFlagSimAdaptiveTimesteppingDefault2": "True",
-    "DFFlagSimHumanoidTimestepModelUpdate": "True"
-}
-```
-### Drunk
-```json
-{
-    "FFlagSimAdaptiveTimesteppingDefault2": "True",
-    "DFIntSimAdaptiveHumanoidPDControllerSubstepMultiplier": "-999999",
-    "DFFlagSimHumanoidTimestepModelUpdate": "True"
-}
-```
-### No Animations
-###### **Stops the game from trying to replicate your animations in the server. You dont have animations in the server but you do for your client**
-```json
-{
-    "DFIntReplicatorAnimationTrackLimitPerAnimator": "-1"
-}
-```
-### Stick unanchored parts to you
-##### - = up, + = down
-```json
-{
-    "DFIntSolidFloorPercentForceApplication": "-1000",
-    "DFIntNonSolidFloorPercentForceApplication": "-5000"
-}
-```
-### Max Raycast Distance
-###### Raycasting is the use of intersection tests to solve problems in ROBLOX. The most common use of raycasting is to determine the first object intersected by a ray. This is done by casting a virtual ray from a certain point in a direction and determining the first surface it intersected with.
-###### Break legs collision from 2 to -inf, kinda break camera on values over 3 noclip cam on 3
-```json
-{
-    "DFIntRaycastMaxDistance": "3"
-}
-```
-### Possible Super Jump
-```json
-{
-    "DFIntNewRunningBaseGravityReductionFactorHundredth": "1500"
-}
-```
-### Change DataSender Rate
-###### a.k.a does not let you load games
-```json
-{
-    "DFIntDataSenderRate": "-1"
-}
-```
-### Disable Touch Events
-```json
-{
-    "DFIntTouchSenderMaxBandwidthBps": "-1"
-}
-```
-### Fake Lag
-```json
-{
-    "DFIntS2PhysicsSenderRate": "1"
-}
-```
-### Invisible 1
-###### **Stops the physics on your character froms sending to the server so your character doesn't move for the server. You can move on your client.**
-```json
-{
-    "DFIntS2PhysicsSenderRate": "-30"
-}
-```
-### Invisible 2
-###### Locks your character's position on the server to (0, 0, 0), having the side effect of turning you invisible. This only affects the server and other clients, not you. server-sided things that rely on your position, like clicking to get tools, will not function. In some games these can be abusable. Here is a list of them: [Link](https://docs.google.com/document/d/1_kQr-tkc97lcg7ZvFfJdt8UzaziIfwuJPrzR6sTOLHo/)
-```json
-{
-    "DFIntGameNetPVHeaderTranslationZeroCutoffExponent": "10"
-}
-```
-### Invisible 3
-###### Restricts the client from sending any physics-related information. This means other people can topple you over.
-```json
-{
-    "DFIntPhysicsSenderMaxBandwidthBps": "1",
-    "DFIntPhysicsSenderMaxBandwidthBpsScaling": "0"
-}
-```
-### Invisible 4 [GATEKEPT UNTIL LEAKED]
-```
-{
-    "?": "-1",
-    "?": "2147483647"
-}
-```
-### Clientsided Invisible
-```json
-{
-    "FIntParallelDynamicPartsFastClusterBatchSize": "-1",
-}
-```
-### Warp & Slowmotion
-```json
-{
-    "DFIntMaxMissedWorldStepsRemembered": "1"
-}
-```
-```json
-{
-    "DFIntMaxMissedWorldStepsRemembered": "1000"
-}
-```
-### Noclip 1
-###### Adjust the value so you don't fall through the ground
-```json
-{
-    "DFFlagAssemblyExtentsExpansionStudHundredth": "-50"
-}
-```
-### Noclip 2 — 30/01/2024
-###### Adjust the value so you don't fall through the ground
-```json
-{
-    "DFIntSimBroadPhasePairCountMax": "50"
-}
-```
-### Hip Height
-###### Very controllable bounce, only works with negative values, 0 allows you to hover
-```json
-{
-    "DFIntMaxAltitudePDStickHipHeightPercent": "-200"
-}
-```
-### Wallglide
-```json
-{
-    "DFIntUnstickForceAttackInTenths": "-4"
 }
 ```
 
