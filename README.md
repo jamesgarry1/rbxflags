@@ -1159,9 +1159,7 @@ High
   </a>
 </h1>
 
-<h4 align="center"><a href="https://discord.com/invite/EJQASQuPJn">Roblox Glitching Community</a>, <a href="https://discord.gg/nKjV3mGq6R">Bloxstrap</a>, People</h4>
-
-<h4 align="center">"buddy u giv no credit!!!" 🤓 cry bout it boohoo</h3>
+<h4 align="center"><a href="https://discord.gg/nKjV3mGq6R">Bloxstrap</a></h4>
 
 <h4 align="center">COLLECTIVISTS 2024®<sup>eal</sup></h4>
 
